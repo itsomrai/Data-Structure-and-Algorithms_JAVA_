@@ -12,7 +12,7 @@ public class functions {
         //REPLACING ELEMENT:
         String newnme="OM RAI";
         String chnge=newnme.replace('a', 'n');
-        System.out.println("new name"+newnme);
+        System.out.println("new name"+chnge);
 
         //SUBSTRING:
         System.out.println(name.substring(0,4));
