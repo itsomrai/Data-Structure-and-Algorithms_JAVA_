@@ -7,8 +7,3 @@ public class inputUser {
         System.out.println(age);
     }
 }
-git add .public class 
- {
-
-    
-}
