@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class reverseArray {
+public class arrayReverse{
     public static void reverse(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
@@ -19,4 +19,3 @@ public class reverseArray {
          System.out.println(Arrays.toString(num));//Array.toString is used to get output in brackets
     }
 }
-
