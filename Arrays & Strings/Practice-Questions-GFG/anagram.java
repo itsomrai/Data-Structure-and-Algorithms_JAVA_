@@ -15,7 +15,7 @@ public class anagram {
 
         // 2. Fast check: If lengths don't match, they aren't anagrams
         if (s1.length() != s2.length()) {
-            System.out.println("❌ Result: The strings ARE NOT anagrams.");
+            System.out.println(" Result: The strings ARE NOT anagrams.");
             return; // Exit early
         }
 
@@ -29,13 +29,13 @@ public class anagram {
         // 4. Verify results
         for (int count : charCount) {
             if (count != 0) {
-                System.out.println("❌ Result: The strings ARE NOT anagrams.");
+                System.out.println(" Result: The strings ARE NOT anagrams.");
                 return; // Exit if mismatch found
             }
         }
 
         // 5. If everything balances out
-        System.out.println("✅ Result: The strings ARE anagrams.");
+        System.out.println(" Result: The strings ARE anagrams.");
     }
 }
 
