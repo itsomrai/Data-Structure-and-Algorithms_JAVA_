@@ -1,4 +1,3 @@
-import java . util .Arrays;
 public class removeDuplicates {
     public static void main(String[] args) {
         int[] num={1,1,2,2,3,3,4,4,5,5};
