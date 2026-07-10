@@ -1,26 +1,18 @@
-import java .util.Arrays;
+import java.util.Arrays;
 public class arraySort {
-public static int[] sort(int[] nums){
-        int[] count= new int[100001];
-        int offset=50000;
-
-        for(int num:nums){
-            count[num+offset]++;
-        }
-
-        int index=0;
-        for(int i=0; i<count.length;i++){
-            while (count[i]>0) {
-                nums[index++]=i-offset;
-                count[i]--;
+public static void main(String[] args) {
+int[] nums={5,4,3,2,1};
+    for(int i=0;i<nums.length;i++){
+    for(int j=0;j<nums.length-1-i;j++){
+        if(nums[j]>nums[j+1]){
+            int temp=nums[j];
+            nums[j]=nums[j+1];
+            nums[j+1]=temp;
+                }
             }
         }
-            return nums;
-    
-    }
-    public static void main(String[] args) {
-        int[] nums={5,2,1,3,2};
-        int[] result=sort(nums);
-        System.out.println(Arrays.toString(result));
+    System.out.println(Arrays.toString(nums));
+
     }
 }
+
