@@ -1,4 +1,4 @@
-import java .util.Arrays;
+import  java.util.Arrays;
 public class removeElement {
     public static void main(String[] args) {
         int[] nums={1,2,3,2,2,4};
@@ -10,8 +10,7 @@ public class removeElement {
                 index++;
             }
         }
-        System.out.println(index);
+        System.out.println(Arrays.toString(nums));
     }
-
     }
 
