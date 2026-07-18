@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class anagram {
+public class anagrams {
     public static void main(String[] args) {
+
 
         Scanner scanner = new Scanner(System.in);
 
@@ -38,4 +39,3 @@ public class anagram {
         System.out.println(" Result: The strings ARE anagrams.");
     }
 }
-
