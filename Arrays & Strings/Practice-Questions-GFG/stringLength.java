@@ -1,4 +1,4 @@
-public class lenString {
+public class stringLength {
     public static void main(String[] args) {
         String name="OM RAI";
         int len=name.length();
@@ -6,3 +6,5 @@ public class lenString {
     }
     
 }
+
+
