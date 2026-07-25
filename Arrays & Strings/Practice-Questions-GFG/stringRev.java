@@ -1,4 +1,4 @@
-public class revString {
+public class stringRev {
     public static void main(String[] args) {
         String s="HELLO";
         String rev="";
@@ -8,3 +8,4 @@ public class revString {
         System.out.println("REVERSED STRING IS: "+rev);
     }
 }
+
