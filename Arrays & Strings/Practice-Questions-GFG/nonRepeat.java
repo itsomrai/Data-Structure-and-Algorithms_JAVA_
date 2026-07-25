@@ -1,4 +1,4 @@
-public class nonRepeating {
+public class nonRepeat {
     static char nonRepeatingChar(String s) {
         int[] freq= new int[26];
 
@@ -23,4 +23,6 @@ public class nonRepeating {
             System.out.println("The non repeating character is"+nonRepeatingChar(s));
         }
     }
+
+
 
