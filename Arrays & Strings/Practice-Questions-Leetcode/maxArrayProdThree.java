@@ -1,4 +1,4 @@
-public class maxproductthree {
+public class maxArrayProdThree {
     public static void main(String[] args) {
         int[] nums={1,2,3};
         int pro=1;
