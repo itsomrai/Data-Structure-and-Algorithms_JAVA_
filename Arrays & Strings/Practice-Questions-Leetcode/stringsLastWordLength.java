@@ -1,4 +1,4 @@
-public class stringLastWordLength {
+public class stringsLastWordLength {
     public static void main(String[] args) {
         String s="Hello My NAme Is OM";
         int length=0;
@@ -13,3 +13,5 @@ public class stringLastWordLength {
         System.out.println(length);
     }
 }
+
+
