@@ -5,7 +5,7 @@ public class arrayLooping {
 
         for(int i=0;i<=arr.length;i++){
             System.out.println("Index "+i+" contains:"+arr[i]);
-            return;
+            
         }
     }
 }        
